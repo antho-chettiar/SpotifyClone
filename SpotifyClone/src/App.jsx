@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import './App.css'
 import MainSection from './components/mainSection/mainSection'
 import Sidebar from './components/sidebar/Sidebar'
+import Footer from './components/footer/Footer'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
         <Sidebar />
         <MainSection />
       </div>
+      <Footer />
      </div>
     </>
   )
